@@ -3,7 +3,7 @@
 
 body {
 
-    background-image: url('imgs/DesktopHome.png');
+    background-image: url('/imgs/DesktopHome.png');
     margin: 0;
     padding: 0;
     background-size: cover;
