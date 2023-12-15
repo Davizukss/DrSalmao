@@ -1,0 +1,100 @@
+.containerSobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.containerSobre img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    padding: 6vw;
+    max-width: 80%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.logo img {
+    width: 35%;
+    max-width: 100%;
+}
+
+.txtsobre {
+    padding: 2vw;
+    width: 90%;
+}
+
+.txtsobre p {
+    color: #fff;
+    font-family: Outfit;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 2vw;
+}
+
+.txtsobre h3 {
+    color: #fff;
+    font-family: Abril Fatface;
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 3vw;
+}
+
+.onde {
+    padding: 14vw 0 10vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+}
+
+.onde img {
+    max-width: 50%;
+}
+
+.txtonde {
+    margin-top: -5vw;
+    padding: 0 0 0 5vw;
+    width: 50%;
+}
+
+.txtonde h3 {
+    color: #000;
+    font-family: Abril Fatface;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.txtonde p {
+    width: 70%;
+    color: #000;
+    font-family: Outfit;
+    font-size: 1.4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btnsobre {
+    border: none;
+    border-radius: 5vw;
+    background: #1C97B6;
+    box-shadow: 0px 2vw 2vw 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    height: 7vh;
+}
+
+.btnsobre span {
+    padding: 4vw;
+}

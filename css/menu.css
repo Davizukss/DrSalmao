@@ -1,0 +1,39 @@
+.containerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.containerLogo img {
+    width: 18vw;
+}
+
+.containerLogo h2 {
+    color: #000;
+    font-family: Abril Fatface;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.txth2 {
+    color: #D46C4A;
+}
+
+.txtcontainer {
+    width: 90%;
+    padding: 2vw 7vw 2vw;
+}
+
+.txtcontainer span {
+    color: #000;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+}
