@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
 
 .containerLogo img {
@@ -25,8 +24,11 @@
 }
 
 .txtcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
     width: 90%;
-    padding: 2vw 7vw 2vw;
 }
 
 .txtcontainer span {
@@ -36,4 +38,176 @@
     font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.containerPratos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Centraliza verticalmente os elementos */
+    padding-bottom: 5vw;
+    text-align: center;
+    /* Centraliza o texto dentro dos elementos filho */
+}
+
+.img-link {
+    position: relative;
+    text-align: center;
+    margin: 2vw;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.img-link img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.img-link .desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    color: white;
+    padding: 0 5vw;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 5vw;
+}
+
+.img-link .desc h3 {
+    margin: 0;
+    font-family: Outfit;
+    font-size: 2vw;
+    color: #FFF;
+}
+
+.img-link .desc span {
+    display: block;
+    font-family: Outfit;
+    font-size: 1.2vw;
+    margin-top: 5px;
+}
+
+.img-link .desc img {
+    width: 15vw;
+    height: auto;
+}
+
+.principal {
+    width: 90vw;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.principal .img-link {
+    color: #000;
+    position: relative;
+}
+
+.principal .desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    color: white;
+    padding: 0 5vw;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 5vw;
+}
+
+.principal .desc h3 {
+    margin: 0;
+    font-family: Outfit;
+    font-size: 2vw;
+    color: #FFF;
+}
+
+.principal .desc span {
+    display: block;
+    font-family: Outfit;
+    font-size: 1.2vw;
+    color: #FFF;
+    margin-top: 5px;
+}
+
+.principal .desc img {
+    width: 15vw;
+    height: auto;
+}
+
+.secundaria {
+    padding-top: 2vw;
+}
+
+.secundaria .imgcard {
+    width: 100%;
+    max-width: 40vw;
+    height: auto;
+    border-radius: 0 5vw;
+}
+
+.filtro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtro img {
+    width: 3vw;
+    padding: 0.5vw;
+    cursor: pointer;
+}
+
+.btnazul { 
+    border-radius: 5vw;
+    border: 5px solid #1C97B6;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    padding: 2.3vw 3.1vw 2.3vw 3.2vw; 
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+.btnlaranja {
+    cursor: pointer;
+    display: flex;
+    border: none;
+    padding: 2.3vw 3.1vw 2.3vw 3.2vw; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 5vw;
+    background: #D46C4A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btnazul span {
+    color: #1C97B6;
+    font-family: Outfit;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+}
+
+.btnlaranja span {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+}
+.btn3, .btn2, .btn1{
+    padding: 1vw;
 }
